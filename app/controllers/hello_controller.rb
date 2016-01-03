@@ -1,5 +1,5 @@
 class HelloController < ApplicationController
-  get '/oh_hai' do
-    erb :"hello/oh_hai"
+  get '/' do
+    erb :"index"
   end
 end
